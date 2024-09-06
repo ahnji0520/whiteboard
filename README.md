@@ -15,6 +15,8 @@ whiteboard 안에 fe, be 폴더가 있습니다!
 <br />
 ### 1. 의존성 설치 및 실행
 **로컬 mongodb 서버 실행**
+<br />
+connect to localhost:27017
 
 **백엔드(Nest.js)**
 ```
