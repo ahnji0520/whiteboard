@@ -24,7 +24,7 @@ cd be
 npm install
 npm run start:dev 
 ```
-
+(실행 후 mongodb compass에서 새로고침하면<br />whiteboard db가 생성되고 seed data들이 들어가 있는 것을 확인할 수 있음)
 **프론트엔드(Vite + React + Tailwind)**
 ```
 cd fe
