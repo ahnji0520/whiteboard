@@ -5,6 +5,14 @@
 # 로컬 환경 구성 방법
 git bash 기준
 <br />
+### 0.
+```
+mkdir new-folder
+cd new-folder
+cd whiteboard
+```
+whiteboard 안에 fe, be 폴더가 있습니다!
+<br />
 ### 1. 의존성 설치 및 실행
 **로컬 mongodb 서버 실행**
 
