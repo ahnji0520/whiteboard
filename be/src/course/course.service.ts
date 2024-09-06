@@ -27,7 +27,7 @@ export class CourseService {
     const course = await this.courseModel.findOne({ courseId }).exec();
 
     if (!course) {
-      throw new NotFoundException('Course not found');
+      return;
     }
 
     return course;
