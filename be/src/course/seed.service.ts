@@ -109,6 +109,14 @@ export class CourseSeedService {
 
     await Promise.all(
       courses.map(async (course) => {
+        const existingCourse = await this.courseService.findOne(
+          course.courseId,
+        );
+
+        if (existingCourse) {
+          console.log('Skip');
+          return;
+        }
         await this.courseService.createCourse(course);
         const newCourse = await this.courseService.findOne(course.courseId);
 
